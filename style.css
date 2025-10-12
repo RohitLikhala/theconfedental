@@ -1,0 +1,76 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  scroll-behavior: smooth;
+}
+
+.navbar-nav .nav-link {
+  transition: color 0.3s ease;
+}
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: #007BFF !important;
+}
+
+.hero-section {
+  background-color: #f8f9fa;
+}
+.hero-img {
+  max-width: 100%;
+  border-radius: 20px;
+  transition: transform 0.4s ease;
+}
+.hero-img:hover {
+  transform: scale(1.03);
+}
+
+.btn {
+  transition: all 0.3s ease;
+}
+.btn:hover {
+  transform: translateY(-3px);
+}
+
+.stats p {
+  color: #555;
+}
+
+.service-card {
+  border: none;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.service-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.doctor-card {
+  border: none;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.doctor-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+footer a {
+  color: #ddd;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+footer a:hover {
+  color: #007BFF;
+}
+
+.animate-fade {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeUp 1s forwards;
+}
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
