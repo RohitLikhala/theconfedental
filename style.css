@@ -174,3 +174,15 @@ footer ul li:hover {
     height: 220px;
   }
 }
+
+/* Footer Social Links */
+.social-link {
+  color: #ffffff;
+  font-size: 1.6rem;
+  transition: all 0.3s ease;
+}
+
+.social-link:hover {
+  color: #00bcd4; /* accent color */
+  transform: scale(1.15);
+}
