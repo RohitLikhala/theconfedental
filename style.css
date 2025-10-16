@@ -51,6 +51,54 @@ footer ul li:hover {
   color: #007bff;
 }
 
+.confidence-box {
+  position: relative;
+  height: 250px; /* fixed height */
+  border-radius: 12px;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.confidence-box .overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  transition: background 0.3s ease;
+}
+
+.confidence-box .box-content {
+  position: relative;
+  z-index: 2;
+  padding: 20px;
+}
+
+.confidence-box h5 {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.confidence-box p {
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.confidence-box:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+}
+
+.confidence-box:hover .overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+
 /* Testimonials */
 #patients blockquote {
   max-width: 700px;
