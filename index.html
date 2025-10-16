@@ -62,7 +62,7 @@
     </div>
   </section>
 
- <!-- Confidence Section (black) -->
+<!-- Confidence Section (black with swipe) -->
 <section id="confidence" class="bg-dark text-white py-5">
   <div class="container">
     <div class="row align-items-center mb-4">
@@ -76,45 +76,89 @@
       </div>
     </div>
 
-    <div class="row text-center g-4">
-      <div class="col-md-4">
-        <div class="confidence-box" style="background-image: url('tracking-bg.jpg');">
-          <div class="overlay"></div>
-          <div class="box-content">
-            <h5>24/7 Health Tracking</h5>
-            <p class="small">
-              Stay connected to your well-being with continuous monitoring tools that keep you and your doctor updated anytime.
-            </p>
+    <!-- Swipeable Carousel -->
+    <div id="confidenceCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-touch="true">
+      <div class="carousel-inner">
+
+        <!-- Slide 1 -->
+        <div class="carousel-item active">
+          <div class="row text-center justify-content-center g-4">
+            <div class="col-md-4">
+              <div class="confidence-box" style="background-image: url('tracking-bg.jpg');">
+                <div class="overlay"></div>
+                <div class="box-content">
+                  <h5>24/7 Health Tracking</h5>
+                  <p class="small">
+                    Stay connected to your well-being with continuous monitoring tools that keep you and your doctor updated anytime.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="confidence-box" style="background-image: url('diagnostic-bg.jpg');">
+                <div class="overlay"></div>
+                <div class="box-content">
+                  <h5>Smart Diagnostics</h5>
+                  <p class="small">
+                    Advanced 3D imaging and precision diagnostics ensure accurate, pain-free treatment planning.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="confidence-box" style="background-image: url('care-bg.jpg');">
+                <div class="overlay"></div>
+                <div class="box-content">
+                  <h5>Comprehensive Care</h5>
+                  <p class="small">
+                    From simple restorations to complex surgeries, we cover every aspect of your oral health with precision.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
+
+        <!-- You can duplicate more slides if you want -->
+        <!-- Example second slide -->
+        <div class="carousel-item">
+          <div class="row text-center justify-content-center g-4">
+            <div class="col-md-4">
+              <div class="confidence-box" style="background-image: url('smile-bg.jpg');">
+                <div class="overlay"></div>
+                <div class="box-content">
+                  <h5>Personalized Smile Design</h5>
+                  <p class="small">
+                    Every smile is unique — our specialists craft treatment plans tailored to your facial aesthetics.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="confidence-box" style="background-image: url('laser-bg.jpg');">
+                <div class="overlay"></div>
+                <div class="box-content">
+                  <h5>Laser Dentistry</h5>
+                  <p class="small">
+                    Modern laser-assisted procedures ensure faster healing and minimal discomfort.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
 
-      <div class="col-md-4">
-        <div class="confidence-box" style="background-image: url('diagnostic-bg.jpg');">
-          <div class="overlay"></div>
-          <div class="box-content">
-            <h5>Smart Diagnostics</h5>
-            <p class="small">
-              Advanced 3D imaging and precision diagnostics ensure accurate, pain-free treatment planning.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-4">
-        <div class="confidence-box" style="background-image: url('care-bg.jpg');">
-          <div class="overlay"></div>
-          <div class="box-content">
-            <h5>Comprehensive Care</h5>
-            <p class="small">
-              From simple restorations to complex surgeries, we cover every aspect of your oral health with precision.
-            </p>
-          </div>
-        </div>
+      <!-- Dots Indicators -->
+      <div class="carousel-indicators mt-4">
+        <button type="button" data-bs-target="#confidenceCarousel" data-bs-slide-to="0" class="active" aria-current="true"></button>
+        <button type="button" data-bs-target="#confidenceCarousel" data-bs-slide-to="1"></button>
       </div>
     </div>
   </div>
 </section>
+
 
   <!-- Priority Section -->
   <section id="priority" class="py-5 bg-light">
