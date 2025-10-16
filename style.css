@@ -186,3 +186,28 @@ footer ul li:hover {
   color: #00bcd4; /* accent color */
   transform: scale(1.15);
 }
+
+#patients {
+  position: relative;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: #007bff;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.carousel-indicators {
+  margin-top: 2rem;
+}
+
+blockquote {
+  font-style: italic;
+  color: #333;
+  transition: transform 0.3s ease;
+}
+
+.carousel-item.active blockquote {
+  transform: scale(1.05);
+}
