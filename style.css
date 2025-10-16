@@ -92,13 +92,21 @@ footer ul li:hover {
 /* Footer Social Links */
 .social-link {
   color: #ffffff;
-  font-size: 1.6rem;
+  font-size: 1.7rem;
   transition: all 0.3s ease;
 }
 
 .social-link:hover {
-  color: #00bcd4; /* accent color */
+  color: #00bcd4; /* Accent color */
   transform: scale(1.15);
+}
+
+footer {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+footer h5 {
+  letter-spacing: 0.5px;
 }
 
 #patients {
