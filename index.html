@@ -134,16 +134,23 @@
   </section>
 
 
-<!-- Patients Section with Slider -->
+<!-- Patients Section -->
 <section id="patients" class="py-5 bg-light text-center">
   <div class="container">
     <h2 class="fw-bold mb-4">What Our Patients Share</h2>
 
-    <div id="testimonialCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
-      <div class="carousel-inner">
+    <div id="patientCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-touch="true">
+      <!-- Indicators -->
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#patientCarousel" data-bs-slide-to="0" class="active" aria-current="true"></button>
+        <button type="button" data-bs-target="#patientCarousel" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#patientCarousel" data-bs-slide-to="2"></button>
+      </div>
 
+      <!-- Carousel Items -->
+      <div class="carousel-inner">
         <div class="carousel-item active">
-          <blockquote class="blockquote">
+          <blockquote class="blockquote mx-auto" style="max-width: 700px;">
             <p class="mb-4">
               “Dr. Ashish Chalana and his team made my dental surgery experience stress-free and comfortable.
               Their care and precision gave me the confidence to smile again.”
@@ -153,39 +160,27 @@
         </div>
 
         <div class="carousel-item">
-          <blockquote class="blockquote">
+          <blockquote class="blockquote mx-auto" style="max-width: 700px;">
             <p class="mb-4">
-              “I had a great experience with The Confedental! The clinic is spotless, and the staff are incredibly kind.
-              My treatment was handled with absolute professionalism.”
+              “Exceptional professionalism and care! My jaw surgery was handled flawlessly — I can’t thank The Confedental enough.”
             </p>
-            <footer class="blockquote-footer">Amit Verma, Jaipur</footer>
+            <footer class="blockquote-footer">Arjun Mehta, Jaipur</footer>
           </blockquote>
         </div>
 
         <div class="carousel-item">
-          <blockquote class="blockquote">
+          <blockquote class="blockquote mx-auto" style="max-width: 700px;">
             <p class="mb-4">
-              “Highly recommend Dr. Chalana for complex dental surgeries.
-              His calm approach and attention to detail really stand out.”
+              “Clean, friendly, and high-tech environment. Dr. Chalana’s approach makes even complex treatments feel easy.”
             </p>
-            <footer class="blockquote-footer">Neha Singh, Malviya Nagar</footer>
+            <footer class="blockquote-footer">Simran Kaur, Delhi</footer>
           </blockquote>
         </div>
-
       </div>
-
-      <!-- Controls -->
-      <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
     </div>
   </div>
 </section>
+
 
   <!-- Footer -->
   <footer id="contact" class="bg-dark text-white py-5">
