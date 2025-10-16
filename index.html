@@ -3,26 +3,30 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>The Confedental | Dr. Ashish Chalana – Maxillofacial Surgeon, Jaipur</title>
+  <title>The Confedental | Dr. Ashish Chalana</title>
+  <!-- Bootstrap 5 -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <!-- Custom CSS -->
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
     <div class="container">
-      <a class="navbar-brand fw-bold text-primary" href="#home">TheConfedental</a>
+      <a class="navbar-brand fw-bold text-primary" href="#">TheConfedental</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav">
-          <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-          <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-          <li class="nav-item"><a class="nav-link" href="#doctors">Doctors</a></li>
-          <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#confidence">Confidence</a></li>
+          <li class="nav-item"><a class="nav-link" href="#priority">Priority</a></li>
+          <li class="nav-item"><a class="nav-link" href="#experts">Experts</a></li>
+          <li class="nav-item"><a class="nav-link" href="#patients">Patients</a></li>
           <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
         </ul>
       </div>
@@ -30,160 +34,148 @@
   </nav>
 
   <!-- Hero Section -->
-  <section id="home" class="py-5 hero-section">
-    <div class="container d-flex flex-column flex-lg-row align-items-center justify-content-between">
-      <div class="col-lg-6 mb-4 mb-lg-0 animate-fade">
-        <h1 class="fw-bold display-5 mb-3">Precision. Care. Confidence.</h1>
-        <p class="lead">Because your smile deserves expert attention — The Confedental offers advanced dental and maxillofacial treatments by <strong>Dr. Ashish Chalana</strong> and his team.</p>
-        <p>We believe every patient deserves personalized care that blends science with compassion. From routine checkups to complex facial surgeries, every procedure is handled with precision and modern technology. Our goal is simple — to restore your oral health, enhance your confidence, and help you smile without hesitation.</p>
-        <div class="mt-4">
-          <a href="#contact" class="btn btn-primary me-2 shadow">Book Appointment</a>
-          <a href="#services" class="btn btn-outline-primary">View Treatments</a>
+  <section id="home" class="pt-5 mt-5">
+    <div class="container py-5">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <h1 class="fw-bold mb-3 display-5">Precision. Care. Confidence.</h1>
+          <p class="text-muted">
+            Because your smile deserves expert attention, The Confedental offers advanced dental and maxillofacial treatments by <strong>Dr. Ashish Chalana</strong> and his team.
+          </p>
+          <p class="text-muted">
+            We believe every patient deserves personalized care that blends science with compassion — from routine checkups to complex facial surgeries.
+          </p>
+          <div class="mt-4">
+            <a href="#" class="btn btn-primary me-2">Book Appointment</a>
+            <a href="#" class="btn btn-outline-dark">View Treatments</a>
+          </div>
+          <div class="d-flex gap-4 mt-5 text-center">
+            <div><h4>2000+</h4><p class="small text-muted">Smiles Restored</p></div>
+            <div><h4>10+</h4><p class="small text-muted">Years of Expertise</p></div>
+            <div><h4>500+</h4><p class="small text-muted">Successful Surgeries</p></div>
+          </div>
         </div>
-        <div class="d-flex gap-4 mt-5 stats">
-          <div><h4 class="fw-bold mb-0 text-primary">2000+</h4><p>Smiles Restored</p></div>
-          <div><h4 class="fw-bold mb-0 text-primary">10+</h4><p>Years of Expertise</p></div>
-          <div><h4 class="fw-bold mb-0 text-primary">500+</h4><p>Successful Surgeries</p></div>
+        <div class="col-lg-6 text-center mt-4 mt-lg-0">
+          <img src="doctor.jpg" class="img-fluid rounded-4 shadow" alt="Dr Ashish Chalana">
         </div>
-      </div>
-      <div class="col-lg-5 text-center animate-fade">
-        <img src="doctor.jpg" alt="Dr. Ashish Chalana" class="img-fluid rounded shadow-lg hero-img">
       </div>
     </div>
   </section>
 
-  <!-- About Section -->
-  <section id="about" class="py-5 bg-light">
-    <div class="container text-center animate-fade">
-      <h2 class="fw-bold mb-4">Because Your Confidence Comes First</h2>
-      <p class="lead text-muted mb-5">We blend modern dental technology with the expertise of Dr. Ashish Chalana to provide reliable, specialized care for every patient.</p>
-      <div class="row g-4">
+  <!-- Confidence Section (black) -->
+  <section id="confidence" class="bg-dark text-white py-5">
+    <div class="container">
+      <div class="row align-items-center mb-4">
+        <div class="col-md-6">
+          <h2 class="fw-bold">Because Your Confidence Comes First</h2>
+        </div>
+        <div class="col-md-6">
+          <p class="text-light">
+            We blend modern dental technology with the expertise of Dr. Ashish Chalana to provide reliable, specialized care for every patient.
+          </p>
+        </div>
+      </div>
+      <div class="row text-center g-4">
         <div class="col-md-4">
-          <div class="card service-card h-100">
-            <div class="card-body">
-              <h5 class="fw-semibold mb-3">24/7 Health Tracking</h5>
-              <p>Stay connected to your well-being with continuous monitoring tools that keep you and your doctor updated anytime.</p>
-            </div>
+          <div class="p-4 bg-light text-dark rounded hover-card">
+            <h5>24/7 Health Tracking</h5>
+            <p class="small">Stay connected to your well-being with continuous monitoring tools that keep you and your doctor updated anytime.</p>
           </div>
         </div>
         <div class="col-md-4">
-          <div class="card service-card h-100">
-            <div class="card-body">
-              <h5 class="fw-semibold mb-3">Smart Diagnostics</h5>
-              <p>Advanced 3D imaging and precision diagnostics ensure accurate, pain-free treatment planning.</p>
-            </div>
+          <div class="p-4 bg-light text-dark rounded hover-card">
+            <h5>Smart Diagnostics</h5>
+            <p class="small">Advanced 3D imaging and precision diagnostics ensure accurate, pain-free treatment planning.</p>
           </div>
         </div>
         <div class="col-md-4">
-          <div class="card service-card h-100">
-            <div class="card-body">
-              <h5 class="fw-semibold mb-3">Comprehensive Care</h5>
-              <p>From simple restorations to complex maxillofacial surgeries, we cover every aspect of oral health.</p>
-            </div>
+          <div class="p-4 bg-light text-dark rounded hover-card">
+            <h5>Comprehensive Care</h5>
+            <p class="small">From simple restorations to complex surgeries, we cover every aspect of your oral health with precision.</p>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Services Section -->
-  <section id="services" class="py-5">
-    <div class="container animate-fade">
-      <h2 class="fw-bold text-center mb-4">Our Specialized Services</h2>
-      <div class="row g-4">
-        <div class="col-md-6 col-lg-4">
-          <div class="card h-100 shadow-sm service-card">
-            <div class="card-body">
-              <h5 class="fw-semibold">Oral & Maxillofacial Surgery</h5>
-              <p>Specialized treatments for facial trauma, jaw correction, and reconstructive procedures with precision and care.</p>
-            </div>
-          </div>
+  <!-- Priority Section -->
+  <section id="priority" class="py-5 bg-light">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 text-center">
+          <img src="clinic1.jpg" class="img-fluid rounded-4 shadow" alt="Clinic">
         </div>
-        <div class="col-md-6 col-lg-4">
-          <div class="card h-100 shadow-sm service-card">
-            <div class="card-body">
-              <h5 class="fw-semibold">Maxillofacial Prosthetics</h5>
-              <p>Custom-made prosthetics and advanced dental solutions designed to restore facial function and aesthetics.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4">
-          <div class="card h-100 shadow-sm service-card">
-            <div class="card-body">
-              <h5 class="fw-semibold">Advanced Dental Treatments</h5>
-              <p>Comprehensive dental care including implants, cosmetic procedures, and restorative dentistry.</p>
-            </div>
-          </div>
+        <div class="col-lg-6 mt-4 mt-lg-0">
+          <h2 class="fw-bold mb-3">Your Smile, Our Priority</h2>
+          <p>
+            At The Confedental, we believe every smile deserves expert care. With modern technology and compassionate dentists, we make your dental journey smooth, safe, and stress-free.
+          </p>
+          <a href="#" class="btn btn-primary mt-3">Book Appointment</a>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Doctors Section -->
-  <section id="doctors" class="py-5 bg-light">
-    <div class="container animate-fade">
-      <h2 class="fw-bold text-center mb-4">Meet Our Expert</h2>
-      <div class="row justify-content-center">
-        <div class="col-md-6 col-lg-4">
-          <div class="card doctor-card text-center p-3 shadow-sm">
-            <img src="doctor.jpg" alt="Dr. Ashish Chalana" class="img-fluid rounded-circle mx-auto mb-3" width="150">
-            <h5 class="fw-semibold">Dr. Ashish Chalana</h5>
-            <p class="text-muted mb-1">Oral & Maxillofacial Surgeon</p>
-            <p>Dedicated to precision-based surgery, aesthetic care, and ensuring every patient smiles with confidence.</p>
-          </div>
-        </div>
+  <!-- Experts Section (black) -->
+  <section id="experts" class="bg-dark text-white py-5">
+    <div class="container">
+      <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2 class="fw-bold">Our Dedicated Medical Experts</h2>
+        <a href="#" class="btn btn-primary">See All Doctors</a>
+      </div>
+      <div class="row text-center g-4">
+        <div class="col-md-3"><div class="expert-card"><img src="team1.jpg" class="img-fluid rounded"><p class="mt-3 mb-0 fw-semibold">Dr. Ashish Chalana</p><small>Maxillofacial Surgeon</small></div></div>
+        <div class="col-md-3"><div class="expert-card"><img src="team2.jpg" class="img-fluid rounded"><p class="mt-3 mb-0 fw-semibold">Dr. Ritu Sharma</p><small>Dental Specialist</small></div></div>
+        <div class="col-md-3"><div class="expert-card"><img src="team3.jpg" class="img-fluid rounded"><p class="mt-3 mb-0 fw-semibold">Dr. Manish Jain</p><small>Implantologist</small></div></div>
+        <div class="col-md-3"><div class="expert-card"><img src="team4.jpg" class="img-fluid rounded"><p class="mt-3 mb-0 fw-semibold">Dr. Priya Agarwal</p><small>Cosmetic Dentist</small></div></div>
       </div>
     </div>
   </section>
 
-  <!-- Testimonials -->
-  <section id="testimonials" class="py-5 text-center">
-    <div class="container animate-fade">
+  <!-- Patients Section -->
+  <section id="patients" class="py-5 bg-light text-center">
+    <div class="container">
       <h2 class="fw-bold mb-4">What Our Patients Share</h2>
-      <blockquote class="blockquote fs-5 fst-italic mx-auto" style="max-width:800px;">
-        “Dr. Ashish Chalana and his team made my dental surgery experience stress-free and comfortable. Their care and precision gave me the confidence to smile again.”
+      <blockquote class="blockquote">
+        <p class="mb-4">
+          “Dr. Ashish Chalana and his team made my dental surgery experience stress-free and comfortable.
+          Their care and precision gave me the confidence to smile again.”
+        </p>
+        <footer class="blockquote-footer">Ritika Sharma, Jaipur</footer>
       </blockquote>
-      <footer class="blockquote-footer mt-3 fw-semibold">Ritika Sharma <cite class="fw-normal">Jaipur, India</cite></footer>
     </div>
   </section>
 
-  <!-- Contact -->
-  <footer id="contact" class="py-5 bg-dark text-white">
-    <div class="container animate-fade">
+  <!-- Footer -->
+  <footer id="contact" class="bg-dark text-white py-5">
+    <div class="container">
       <div class="row">
-        <div class="col-md-4 mb-4 mb-md-0">
-          <h4 class="fw-bold text-primary mb-3">Stay Connected to Better Health</h4>
-          <p>Join our community and get expert health tips, wellness updates, and trusted medical insights delivered straight to you.</p>
-          <a href="#contact" class="btn btn-primary btn-sm">Get Started</a>
+        <div class="col-md-6 mb-3">
+          <h4 class="fw-bold">Stay Connected to Better Health</h4>
+          <p>Join our community and get expert health tips, wellness updates, and trusted medical insights — delivered straight to you.</p>
+          <a href="#" class="btn btn-primary">Get Started</a>
         </div>
-        <div class="col-md-8">
-          <div class="row">
-            <div class="col-6 col-md-4">
-              <h6 class="fw-bold mb-3">Clinic</h6>
-              <ul class="list-unstyled">
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#doctors">Our Doctors</a></li>
-                <li><a href="#services">Treatments</a></li>
-                <li><a href="#testimonials">Patient Stories</a></li>
-              </ul>
-            </div>
-            <div class="col-6 col-md-4">
-              <h6 class="fw-bold mb-3">Support</h6>
-              <ul class="list-unstyled">
-                <li><a href="#">Contact Us</a></li>
-                <li><a href="#">FAQs</a></li>
-                <li><a href="#">Help Center</a></li>
-              </ul>
-            </div>
-            <div class="col-md-4 mt-4 mt-md-0">
-              <h6 class="fw-bold mb-3">Visit Us</h6>
-              <p>63, D-Block, Vijay Nagar, Malviya Nagar, Jaipur</p>
-            </div>
-          </div>
+        <div class="col-md-2">
+          <h6 class="fw-semibold">Clinic</h6>
+          <ul class="list-unstyled small">
+            <li>About Us</li><li>Our Doctors</li><li>Careers</li><li>News & Media</li>
+          </ul>
+        </div>
+        <div class="col-md-2">
+          <h6 class="fw-semibold">Services</h6>
+          <ul class="list-unstyled small">
+            <li>Book Appointment</li><li>Treatments</li><li>Health Packages</li>
+          </ul>
+        </div>
+        <div class="col-md-2">
+          <h6 class="fw-semibold">Support</h6>
+          <ul class="list-unstyled small">
+            <li>Contact Us</li><li>Help Center</li><li>Privacy Policy</li>
+          </ul>
         </div>
       </div>
-      <hr class="my-4 border-light opacity-25">
-      <p class="text-center mb-0 small">&copy; 2025 The Confedental. All Rights Reserved.</p>
+      <hr class="border-secondary mt-4">
+      <p class="text-center small mb-0">© 2025 The Confedental | 63, D-Block, Vijay Nagar, Malviya Nagar, Jaipur</p>
     </div>
   </footer>
 
