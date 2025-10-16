@@ -50,3 +50,21 @@ footer ul li {
 footer ul li:hover {
   color: #007bff;
 }
+
+/* Testimonials */
+#patients blockquote {
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #333;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(1);
+}
+
+.carousel-fade .carousel-item {
+  transition: opacity 1s ease-in-out;
+}
