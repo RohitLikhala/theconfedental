@@ -106,7 +106,7 @@ footer ul li:hover {
 }
 
 .carousel-indicators [data-bs-target] {
-  background-color: #007bff;
+  background-color: #000000;
   width: 10px;
   height: 10px;
   border-radius: 50%;
