@@ -134,12 +134,26 @@ blockquote {
   transform: scale(1.05);
 }
 
-/* #confidence {
+#confidence {
   border-radius: 20px;
   padding: 80px 60px;
   margin: 40px auto; 
   width: 95%; 
-} */
+}
+
+#experts {
+  border-radius: 20px;
+  padding: 80px 60px;
+  margin: 40px auto; 
+  width: 95%; 
+}
+
+#contact {
+  border-radius: 20px;
+  padding: 80px 60px;
+  margin: 40px auto; 
+  width: 95%; 
+}
 
 /* Confidence Section Cards */
 .confidence-card {
