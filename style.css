@@ -213,7 +213,7 @@ blockquote {
 }
 
 .glass-navbar {
-  background: rgba(255, 255, 255, 0.15);
+  /* background: rgba(255, 255, 255, 0.15); */
   backdrop-filter: blur(6px);           /* Creates blur */
   -webkit-backdrop-filter: blur(6px);   /* Safari support */
   border-bottom: 2px solid rgba(255, 255, 255, 0.2);
