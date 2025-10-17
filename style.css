@@ -215,9 +215,9 @@ blockquote {
 
 .glass-navbar {
   background: rgba(255, 255, 255, 0.15);
-  backdrop-filter: blur(10px);           /* Creates blur */
-  -webkit-backdrop-filter: blur(10px);   /* Safari support */
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(6px);           /* Creates blur */
+  -webkit-backdrop-filter: blur(6px);   /* Safari support */
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   transition: background 0.3s ease, box-shadow 0.3s ease;
   position: fixed;
@@ -236,5 +236,5 @@ blockquote {
 
 .glass-navbar.scrolled {
   background: rgba(255, 255, 255, 0.9);
-  backdrop-filter: blur(20px);
+  backdrop-filter: blur(10px);
 }
