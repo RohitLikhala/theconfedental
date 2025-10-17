@@ -211,6 +211,7 @@ blockquote {
 .bg-image-3 {
   background-image: url('track.jpg');
 }
+
 .glass-navbar {
   background: rgba(255, 255, 255, 0.15);
   backdrop-filter: blur(10px);           /* Creates blur */
