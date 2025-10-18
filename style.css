@@ -280,44 +280,22 @@ blockquote {
 }
 
 
-.glow-border {
+.glow-follow {
   position: relative;
   display: inline-block;
   border-radius: 20px;
   overflow: hidden;
-  padding: 6px; /* border thickness */
-  background: linear-gradient(120deg, #00c2ff, #007bff, #00c2ff);
-  background-size: 300% 300%;
-  animation: gradientShift 5s ease infinite;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 6px;
+  background: radial-gradient(circle at center, rgba(0,194,255,0.6), rgba(0,123,255,0.2), transparent 70%);
+  transition: background 0.2s ease;
 }
 
-.glow-border img {
+.glow-follow img {
   border-radius: 16px;
   display: block;
   width: 100%;
   height: auto;
 }
-
-/* subtle animation for motion */
-@keyframes gradientShift {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-
-/* Mouse movement glow interaction */
-.glow-border:hover {
-  transform: scale(1.03);
-  box-shadow: 0 0 25px rgba(0, 194, 255, 0.4), 0 0 50px rgba(0, 123, 255, 0.3);
-}
-
 
 
 .glass-navbar {
