@@ -241,8 +241,8 @@ blockquote {
   padding: 8px;
   background: linear-gradient(
     135deg,
-    rgba(0, 123, 255, 0.6),   /* #007bff at 60% opacity */
-    rgba(0, 194, 255, 0.6)    /* #00c2ff at 60% opacity */
+    rgba(0, 123, 255, 0.2),   /* #007bff at 60% opacity */
+    rgba(0, 194, 255, 0.2)    /* #00c2ff at 60% opacity */
   );
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
