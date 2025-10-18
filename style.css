@@ -250,7 +250,7 @@ blockquote {
 
 .partner-logo:hover {
   transform: scale(1.05);
-  box-shadow: 0 0 15px rgba(0, 123, 255, 0.35);
+  box-shadow: 15px 15px 15px rgba(0, 123, 255, 0.35);
 }
 
 /* Seamless scroll animation */
