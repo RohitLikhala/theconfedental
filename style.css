@@ -279,23 +279,32 @@ blockquote {
   background: linear-gradient(to left, rgba(255,255,255,1), rgba(255,255,255,0));
 }
 
-
 .glow-follow {
   position: relative;
   display: inline-block;
   border-radius: 20px;
   overflow: hidden;
-  padding: 6px;
-  background: radial-gradient(circle at center, rgba(0,194,255,0.6), rgba(0,123,255,0.2), transparent 70%);
-  transition: background 0.2s ease;
+}
+
+.glow-follow::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: radial-gradient(circle at center, rgba(0,194,255,0.6), transparent 70%);
+  z-index: 0;
+  transition: background 0.15s ease;
 }
 
 .glow-follow img {
-  border-radius: 16px;
+  position: relative;
+  z-index: 1;
   display: block;
   width: 100%;
   height: auto;
+  border-radius: inherit;
 }
+
 
 
 .glass-navbar {
