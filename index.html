@@ -366,6 +366,35 @@
     }
   });
 </script>
+
+<script>
+  const glow = document.querySelector('.glow-follow');
+
+  glow.addEventListener('mousemove', (e) => {
+    const rect = glow.getBoundingClientRect();
+    const x = e.clientX - rect.left;
+    const y = e.clientY - rect.top;
+
+    glow.style.background = `
+      radial-gradient(circle at ${x}px ${y}px,
+      rgba(0,194,255,0.7),
+      rgba(0,123,255,0.2),
+      transparent 70%)
+    `;
+  });
+
+  glow.addEventListener('mouseleave', () => {
+    glow.style.background = `
+      radial-gradient(circle at center,
+      rgba(0,194,255,0.6),
+      rgba(0,123,255,0.2),
+      transparent 70%)
+    `;
+  });
+</script>
+
+
+  
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
