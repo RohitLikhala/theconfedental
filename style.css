@@ -217,29 +217,29 @@ blockquote {
 
 .trusted-partners {
   background-color: #fff;
+  position: relative;
+  overflow: hidden;
 }
 
-.marquee-container {
-  overflow: hidden;
+.marquee-wrapper {
   position: relative;
+  overflow: hidden;
   width: 100%;
 }
 
 .marquee {
   display: flex;
+  align-items: center;
   gap: 2rem;
   animation: scroll 25s linear infinite;
 }
 
 .partner-logo {
-  height: 60px; /* smaller logos */
+  height: 55px; /* smaller logos */
   width: auto;
   border-radius: 12px;
   padding: 8px;
   background: linear-gradient(135deg, #007bff, #00c2ff);
-  display: flex;
-  align-items: center;
-  justify-content: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -248,14 +248,32 @@ blockquote {
   box-shadow: 0 0 10px rgba(0, 123, 255, 0.3);
 }
 
+/* Seamless scroll animation */
 @keyframes scroll {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-50%);
-  }
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
 }
+
+/* Gradient fade edges */
+.fade {
+  position: absolute;
+  top: 0;
+  width: 80px;
+  height: 100%;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.fade-left {
+  left: 0;
+  background: linear-gradient(to right, rgba(255,255,255,1), rgba(255,255,255,0));
+}
+
+.fade-right {
+  right: 0;
+  background: linear-gradient(to left, rgba(255,255,255,1), rgba(255,255,255,0));
+}
+
 
 
 
