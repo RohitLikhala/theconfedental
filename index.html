@@ -12,6 +12,30 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
   <!-- Custom CSS -->
   <link rel="stylesheet" href="style.css">
+  <style>
+    .review-card {
+      border-radius: 20px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      background: linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
+    }
+
+    .review-card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 16px 32px rgba(11, 94, 215, 0.12);
+    }
+
+    .review-stars {
+      letter-spacing: 2px;
+      font-size: 0.95rem;
+    }
+
+    .review-cta {
+      border-radius: 18px;
+      background: linear-gradient(135deg, #0b5ed7 0%, #0d6efd 100%);
+      color: white;
+      padding: 30px 24px;
+    }
+  </style>
 </head>
 
 <body>
@@ -62,11 +86,11 @@
         <div class="col-lg-6">
           <h1 class="fw-bold mb-3 display-5"> <b>Precision. Care. Confidence.</b></h1>
           <p class="text-muted">
-            Because your smile deserves expert attention, The Confedental offers advanced dental, maxillofacial, and cosmetic treatments led by <strong style="color: #0B5ED7;"><b>Dr. Ashish Chalana</b></strong> and his team.
+            Because your smile deserves expert attention, The Confedental offers advanced dental, maxillofacial, and cosmetic treatments led by <strong style="color: #0B5ED7;"><b>Dr. Ashish Chalana</b></strong>.
           </p>
           <p class="text-muted">
-            We believe every patient deserves personalized care that blends science with artistry and compassion — from routine checkups and oral surgeries to smile makeovers, facial aesthetics, advanced hair restoration, and complex reconstructive procedures.          
-          <br>Our goal is to help you achieve a healthy, confident smile that looks as good as it feels.</br>
+            We believe every patient deserves personalized care that blends science with artistry and compassion — from routine checkups and oral surgeries to smile makeovers, facial aesthetics, and implant solutions.
+            <br>Our goal is to help you achieve a healthy, confident smile that looks as good as it feels.</br>
           </p>
           <div class="mt-4">
 
@@ -199,9 +223,9 @@
         <a href="#" class="btn btn-primary">See All Doctors</a>
       </div>
       <div class="row text-center g-4">
-        <div class="col-md-3"><div class="expert-card"><img src="team1.jpg" class="img-fluid rounded"><p class="mt-3 mb-0 fw-bold">Dr. Ashish Chalana</p><br><small><ul class="list-unstyled small"><li>Aral & Maxillofacial Surgeon</li><li>Hair Transplant Expert</li><li>Cosmetologist</li><li>Consultant EHCC Emergency & Trauma</li></ul></small></div></div>
-        <div class="col-md-3"><div class="expert-card"><img src="team1.jpg" class="img-fluid rounded"><p class="mt-3 mb-0 fw-bold">Dr. Ashish Chalana</p><br><small><ul class="list-unstyled small"><li>Aral & Maxillofacial Surgeon</li><li>Hair Transplant Expert</li><li>Cosmetologist</li><li>Consultant EHCC Emergency & Trauma</li></ul></small></div></div>
-        <div class="col-md-3"><div class="expert-card"><img src="team1.jpg" class="img-fluid rounded"><p class="mt-3 mb-0 fw-bold">Dr. Ashish Chalana</p><br><small><ul class="list-unstyled small"><li>Aral & Maxillofacial Surgeon</li><li>Hair Transplant Expert</li><li>Cosmetologist</li><li>Consultant EHCC Emergency & Trauma</li></ul></small></div></div>        
+        <div class="col-md-3"><div class="expert-card"><img src="team1.jpg" class="img-fluid rounded"><p class="mt-3 mb-0 fw-bold">Dr. Ashish Chalana</p><br><small><ul class="list-unstyled small"><li>Oral & Maxillofacial Surgeon</li>
+        <div class="col-md-3"><div class="expert-card"><img src="team1.jpg" class="img-fluid rounded"><p class="mt-3 mb-0 fw-bold">Dr. Ashish Chalana</p><br><small><ul class="list-unstyled small"><li>Oral & Maxillofacial Surgeon</li>
+        <div class="col-md-3"><div class="expert-card"><img src="team1.jpg" class="img-fluid rounded"><p class="mt-3 mb-0 fw-bold">Dr. Ashish Chalana</p><br><small><ul class="list-unstyled small"><li>Oral & Maxillofacial Surgeon</li>
       </div>
     </div>
   </section> -->
@@ -313,6 +337,80 @@
   </div>
 </section>
 
+<!-- Review Section -->
+<section id="reviews" class="py-5 bg-white">
+  <div class="container">
+    <div class="text-center mb-5">
+      <span class="badge bg-primary-subtle text-primary fw-semibold px-3 py-2 mb-3">Patient Reviews</span>
+      <h2 class="fw-bold mb-3">Stories from Our Happy Patients</h2>
+      <p class="text-muted mx-auto" style="max-width: 700px;">Real experiences from patients who trusted The Confedental for better smiles, better comfort, and better confidence.</p>
+    </div>
+
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card review-card border-0 shadow-sm h-100">
+          <div class="card-body p-4">
+            <div class="d-flex align-items-center mb-3">
+              <div class="me-3 bg-primary text-white rounded-circle d-flex align-items-center justify-content-center" style="width: 42px; height: 42px; font-weight: 700;">A</div>
+              <div>
+                <h6 class="mb-0 fw-bold">Aarushi S.</h6>
+                <small class="text-muted">Smile Makeover</small>
+              </div>
+            </div>
+            <div class="review-stars text-warning mb-3">
+              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+            </div>
+            <p class="text-muted mb-0">“The clinic is extremely professional and the transformation is amazing. I felt comfortable from the very first consultation and the results look natural and beautiful.”</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card review-card border-0 shadow-sm h-100">
+          <div class="card-body p-4">
+            <div class="d-flex align-items-center mb-3">
+              <div class="me-3 bg-info text-white rounded-circle d-flex align-items-center justify-content-center" style="width: 42px; height: 42px; font-weight: 700;">V</div>
+              <div>
+                <h6 class="mb-0 fw-bold">Vikas M.</h6>
+                <small class="text-muted">Jaw Surgery</small>
+              </div>
+            </div>
+            <div class="review-stars text-warning mb-3">
+              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+            </div>
+            <p class="text-muted mb-0">“Dr. Chalana explained everything in detail and handled my surgery with incredible precision. The team was caring, supportive, and very responsive throughout recovery.”</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card review-card border-0 shadow-sm h-100">
+          <div class="card-body p-4">
+            <div class="d-flex align-items-center mb-3">
+              <div class="me-3 bg-success text-white rounded-circle d-flex align-items-center justify-content-center" style="width: 42px; height: 42px; font-weight: 700;">N</div>
+              <div>
+                <h6 class="mb-0 fw-bold">Nikita P.</h6>
+                <small class="text-muted">General Dental Care</small>
+              </div>
+            </div>
+            <div class="review-stars text-warning mb-3">
+              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+            </div>
+            <p class="text-muted mb-0">“Clean environment, genuine care, and excellent treatment. I have never felt more confident about my oral health. Highly recommended for anyone looking for expert dental care.”</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="review-cta mt-5 d-flex flex-column flex-md-row align-items-center justify-content-between">
+      <div>
+        <h4 class="fw-bold mb-1">Share Your Experience</h4>
+        <p class="mb-0 text-white-50">We value every patient story and look forward to welcoming you with care.</p>
+      </div>
+      <a href="https://wa.me/919461930003?text=Hello Dr. Ashish Chalana, I would like to share my feedback and book a consultation" class="btn btn-light btn-lg mt-3 mt-md-0">Leave a Review</a>
+    </div>
+  </div>
+</section>
 
   <!-- Footer -->
   <footer id="contact" class="bg-dark text-white py-5 px-4 rounded-4">
